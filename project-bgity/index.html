@@ -9,27 +9,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+    <script src="./assets/js/main.js" defer></script>
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="header-box">
-                <div class="header-logo">
-                    <img src="./assets/icons/emblem.svg" alt="logo bgity" class="header-logo__img">
-                    <h1 class="header-logo__title">БГИТУ</h1>
-                </div>
-                <form action="" method="get">
-                    <button type="submit"></button>
-                    <input type="search" class="header-search" placeholder="Поиск">
-                </form>
- 
-                <select name="select" id="head-select" class="header-select">
-                    <option value="1" class="header-select__option">1 корпус</option>
-                    <option value="2" class="header-select__option">2 корпус</option>
-                    <option value="3" class="header-select__option">3 корпус</option>
-                    <option value="4" class="header-select__option">4 корпус</option>
-                </select>
-            </div>
+                <nav class="nav">
+                    <a href="#сайтбгиту" class="header-logo">
+                        <img src="./assets/icons/emblem.svg" alt="logo bgity" class="header-logo__img">
+                        <h1 class="header-logo__title">БГИТУ</h1>
+                    </a>
+                    <ul class="nav-list">
+                        <li class="nav-list__item">
+                            <form action="#" method="post">
+                                <button type="submit">
+                                    <img src="././assets/icons/loop.svg" alt="">
+                                </button>
+                                <input type="search" class="header-search" placeholder="Поиск">
+                            </form>
+                        </li>
+                        <li class="nav-list__item">
+                            <select name="select" id="head-select" class="header-select">
+                                <option value="1" class="header-select__option">1 корпус</option>
+                                <option value="2" class="header-select__option">2 корпус</option>
+                                <option value="3" class="header-select__option">3 корпус</option>
+                                <option value="4" class="header-select__option">4 корпус</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <div class="hamburger__icon">
+                        <span class="hamburger__icon--item line1"></span>
+                        <span class="hamburger__icon--item line2"></span>
+                    </div>
+                </nav>
         </div>
     </header>
 </body>
