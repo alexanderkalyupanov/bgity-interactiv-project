@@ -9,7 +9,10 @@
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    border: 1px solid red;
+}
+
+button {
+    cursor: pointer;
 }
 
 .body-overflow {
@@ -107,7 +110,7 @@ form {
 
 }
 
-button {
+.input-btn {
     position: absolute;
     top: 0;
     left: -30px;
@@ -119,7 +122,7 @@ button {
     cursor: pointer;
 }
 
-button img {
+.input-btn img {
     width: 20px;
     height: 20px;
 }
@@ -173,6 +176,70 @@ button img {
         cursor: pointer;
         opacity: 1;
     }
+}
+
+main {
+    margin-top: 20px;
+}
+
+.map {
+    position: relative;
+}
+
+.map-cont {
+    display: flex;
+}
+
+.map-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn-interaction,
+.btn-floors {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-interaction {
+    gap: 3px;
+}
+
+.btn-floors {
+    gap: 20px;
+}
+
+.btn-map {
+    background-color: #D9D9D9;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.button-road {
+    background-image: url("./../icons/road.svg");
+    border-radius: 5px;
+}
+
+.button-minus {
+    background-image: url("./../icons/minus.svg");
+}
+
+.button-reload {
+    background-image: url("./../icons/refresh.svg");
+}
+
+.button-plus {
+    background-image: url("./../icons/increase.svg");
+}
+
+.btn-active {
+    background-color: #01619B;
+    color: #fff;
 }
 
 @media screen and (max-width: 768px) {
