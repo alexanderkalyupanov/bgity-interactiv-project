@@ -262,6 +262,10 @@ main {
   background-image: url("./../icons/increase.svg");
 }
 
+.button-floor {
+  color: #333;
+}
+
 .btn-active {
   background-color: #01619B;
   color: #fff;
