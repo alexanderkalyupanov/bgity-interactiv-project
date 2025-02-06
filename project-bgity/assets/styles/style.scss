@@ -12,6 +12,12 @@
     border: 1px solid red;
 }
 
+.body-wrapper {
+    position: relative;
+    width: 100%;
+    // overflow: hidden;
+}
+
 .header-box {
     display: flex;
     align-items: center;
@@ -79,6 +85,7 @@
 form {
     position: relative;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .header-search {
@@ -165,6 +172,9 @@ button img {
 }
 
 @media screen and (max-width: 768px) {
+    .nav-active {
+        display: flex !important;
+      }
     .header-logo__title {
         font-size: 28px;
     }
@@ -179,10 +189,10 @@ button img {
         background-color: white;
         position: absolute;
         z-index: 2;
-        max-width: 70%;
-        height: 100%;
+        width: 100%;
+        height: 100vh;
         gap: 14px;
-        top: 0px;
+        top: 130px;
         right: 0px;
         transition: all 0.6s linear;
     }
