@@ -184,6 +184,7 @@ form {
 
 main {
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .map {
@@ -246,6 +247,47 @@ main {
   color: #fff;
 }
 
+footer {
+  background-color: #01619B;
+  color: #fff;
+  padding: 10px;
+}
+
+.footer-title {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-list__item,
+.footer-contacts__item {
+  list-style-type: none;
+}
+
+.footer-list__item {
+  margin-bottom: 5px;
+}
+
+.footer-contacts__item {
+  margin-bottom: 10px;
+}
+
+.footer-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-list__item-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   .nav-active {
     display: flex !important;
@@ -276,5 +318,8 @@ main {
   }
   .header-search {
     width: 12.5rem;
+  }
+  .footer-title {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
