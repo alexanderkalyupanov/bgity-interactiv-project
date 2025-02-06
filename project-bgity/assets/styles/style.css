@@ -11,6 +11,10 @@
   margin: 0 auto;
 }
 
+body {
+  border: 5px solid #01619B;
+}
+
 button {
   cursor: pointer;
 }
@@ -102,7 +106,7 @@ form {
   background-color: #D9D9D9;
   border-radius: 10px;
   border: none;
-  max-width: 100%;
+  width: 20rem;
   height: 2.25em;
   padding: 10px;
   -webkit-appearance: none;
@@ -250,7 +254,8 @@ main {
 }
 
 .button-reload {
-  background-image: url("./../icons/refresh.svg");
+  background-image: url("./../icons/refreshe-active.svg");
+  cursor: pointer;
 }
 
 .button-plus {
