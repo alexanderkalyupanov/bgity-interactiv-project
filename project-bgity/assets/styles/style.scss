@@ -65,18 +65,9 @@ button {
     }
 }
 
-// .nav-list__item {
-//     flex: 1;
-//     display: flex;
-//     justify-content: center;
-//     /* Центрирование содержимого */
-// }
-
-// .search-form {
-//     display: flex;
-//     align-items: center;
-//     gap: 8px;
-// }
+.nav-list__item {
+    position: relative;
+}
 
 .header-logo {
     display: flex;
@@ -107,13 +98,12 @@ button {
     background-image: url("./../icons/select.svg");
     background-repeat: no-repeat;
     background-position: right 10px center;
-    position: relative;
 }
 
 .nav-list__item:last-child:before {
     content: "";
     position: absolute;
-    top: 69px;
+    top: 0;
     right: 28px;
     z-index: 5;
     width: 1px;
@@ -297,11 +287,6 @@ footer {
     flex-wrap: wrap;
     gap: 10px;
 }
-
-// .footer-list,
-// .footer-contacts {
-//     width: 50%;
-// }
 
 .footer-list__item,
 .footer-contacts__item {
